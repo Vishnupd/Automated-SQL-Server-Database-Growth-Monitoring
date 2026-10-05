@@ -47,7 +47,7 @@ GO
 *Ref 1: Database Mail XPs Configuration*
 This screenshot shows the SQL Server configuration commands used to enable Database Mail functionality.
 
-![Database Mail XPs Configuration](screenshots/01-enable-database-mail.png)
+![Database Mail XPs Configuration]((https://github.com/Vishnupd/Automated-SQL-Server-Database-Growth-Monitoring/blob/main/Mail_Configuration.png))
 
 ### 2. Configure the Database Mail Account
 
