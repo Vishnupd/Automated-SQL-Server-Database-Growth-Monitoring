@@ -72,7 +72,7 @@ EXEC dbo.sysmail_add_account_sp
 *Ref 2: Database Mail Account Configuration*
 This screenshot shows the T-SQL configuration used to create the SQL Server Database Mail account.
 
-![Database Mail Account](screenshots/02-create-mail-account.png)
+![Database Mail Account](https://github.com/Vishnupd/Automated-SQL-Server-Database-Growth-Monitoring/blob/main/Mail_Account.png)
 
 ### 3. Create and Associate the Database Mail Profile
 
@@ -97,7 +97,7 @@ GO
 *Ref 3: Database Mail Profile Configuration*
 This screenshot shows the creation of the Database Mail profile and its association with the mail account.
 
-![Database Mail Profile](screenshots/03-create-mail-profile.png)
+![Database Mail Profile](https://github.com/Vishnupd/Automated-SQL-Server-Database-Growth-Monitoring/blob/main/Mail_Profile.png)
 
 ### 4. Test and Verify Database Mail
 
@@ -122,7 +122,8 @@ ORDER BY send_request_date DESC;
 *Ref 4: Database Mail Test and Verification*
 This screenshot shows the successful Database Mail test and the corresponding mail item recorded in the SQL Server `msdb` database.
 
-![Database Mail Test](screenshots/04-test-database-mail.png)
+![Database Mail Test](https://github.com/Vishnupd/Automated-SQL-Server-Database-Growth-Monitoring/blob/main/Mail_Test.png)
+![Database Mail Test](https://github.com/Vishnupd/Automated-SQL-Server-Database-Growth-Monitoring/blob/main/Test_Mail.png)
 
 ### 5. Database File Space Monitoring
 
@@ -139,7 +140,7 @@ The procedure calculates the file size and used space using SQL Server system in
 *Ref 5: Database Growth Monitoring Procedure*
 This screenshot shows the stored procedure used to monitor database file utilization and compare it against the configured threshold.
 
-![Database Growth Monitoring Procedure](screenshots/05-db-growth-monitoring-sp.png)
+![Database Growth Monitoring Procedure](https://github.com/Vishnupd/Automated-SQL-Server-Database-Growth-Monitoring/blob/main/Stored%20Procedure.png)
 
 ### 6. Threshold Comparison and Alert Generation
 
@@ -156,7 +157,7 @@ The email contains information about the current used space and total file size.
 *Ref 6: Database Growth Monitoring Execution*
 This screenshot shows the execution of the monitoring procedure and the database space utilization check.
 
-![Database Growth Monitoring Execution](screenshots/06-monitoring-execution.png)
+![Database Growth Monitoring Execution](https://github.com/Vishnupd/Automated-SQL-Server-Database-Growth-Monitoring/blob/main/DB_Growth_SP_Execution.png)
 
 ### 7. Database Growth Alert
 
@@ -167,7 +168,7 @@ The notification includes the database name, configured threshold, current used 
 *Ref 7: Database Growth Alert Email*
 This screenshot shows the automated email notification generated when the database file utilization exceeded the configured threshold.
 
-![Database Growth Alert](screenshots/07-database-growth-alert.png)
+![Database Growth Alert](https://github.com/Vishnupd/Automated-SQL-Server-Database-Growth-Monitoring/blob/main/DB_Growth_Mail.png)
 
 ## Results
 
