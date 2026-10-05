@@ -173,4 +173,4 @@ This screenshot shows the automated email notification generated when the databa
 
 The project successfully demonstrated automated SQL Server database space monitoring and email-based alerting. The solution reduced the need for manual monitoring and provided an early warning when database file utilization reached a defined threshold.
 
-This project demonstrates practical experience in **SQL Server Database Administration, T-SQL development, database monitoring, Database Mail configuration, dynamic SQL, and proactive database capacity management**.
+This project demonstrates practical experience in SQL Server Database Administration, T-SQL development, database monitoring, Database Mail configuration, dynamic SQL, and proactive database capacity management.
